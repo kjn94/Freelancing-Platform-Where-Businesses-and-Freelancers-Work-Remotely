@@ -1,0 +1,342 @@
+body, html{
+	margin:0;
+	font: 1em "Open Sans", sanss-serif;
+}
+
+h2{
+	color: orange;
+	font-size: 50px;
+	width:75%;
+	max-width:100%;
+}
+.description p{
+	color:black;
+}
+
+
+/*-------------------------BELOW MENU VIDEO-----------------*/
+.nav-belowmenu{
+	width:100%;
+	background: url('../images/backbelowmenu.png') no-repeat center;
+	height:auto;
+	
+	font-family: Lato-Regular;
+	font-size: 42px;
+	color: #fff;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin: 0 auto;
+	border: 5px solid #285189;
+}	
+
+.nav-belowmenu p{
+	width: 75%;
+	font-size: 27px;
+	margin-top: auto;
+	vertical-align: text-bottom;
+	text-align: center;
+}
+
+.nav-belowcat{
+	width:100%;
+	background-color: white;
+	/*background: url('../images/BelowVideo.png') no-repeat center;*/
+	height:auto;
+
+}
+.nav-belowvideo{
+	width:100%;
+	background-color: lightgrey;
+	/*background: url('../images/BelowVideo.png') no-repeat center;*/
+	height:auto;
+	border: 5px solid #285189;
+}
+
+.nav-belowvideo .text{
+		font-size: 30px;
+	color: black;
+	width: 80%;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin: 30 auto;
+}
+.nav-main{
+	width:100%;
+	background: url('../img/laptop.png') no-repeat center;
+	height:auto;
+	border: 5px solid #285189;
+}
+.nav-main .title{
+	font-family: Lato-Regular;
+	font-size: 40px;
+	color: orange;
+	font-weight: bold;
+	vertical-align: text-bottom;
+	text-align: left;
+	margin: 0 auto;
+	
+}
+.nav-book{
+	width:100%;
+	background: url('../img/laptop.png') no-repeat center;
+	height:auto;
+	border: 5px solid #285189;
+}
+
+.nav-book .title{
+	font-family: Lato-Regular;
+	font-size: 40px;
+	color: orange;
+	font-weight: bold;
+	vertical-align: text-bottom;
+	text-align: left;
+	margin: 0 auto;
+	
+}
+
+.nav-book .parag p{
+	font-family: Lato-Regular;
+	font-size: 24px;
+	width:85%;
+	max-width:100%;
+	color: white;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin: 0 auto;
+}
+div.mainimage img {
+	width:815px;
+	max-width: 100%;
+	height:auto;
+}
+
+img{
+	height: 250px;
+	width: 250px;
+}
+
+div.gallery img {
+	margin-top: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.nav-founders{
+	width:100%;
+	/*background: url('../img/abovefooter4.png') no-repeat center;*/
+	height:auto;
+	background-color: lightgray;
+	border: 5px solid #285189;
+}
+
+.nav-founders p{
+		font-family: Lato-Regular;
+		font-size: 20px;
+		width: 85%;
+		color: white;
+		vertical-align: text-bottom;
+		text-align: center;
+		margin: 0 auto;
+	}
+.nav-founders h1{
+		font-family: Lato-Regular;
+		font-size: 33px;
+		width: 85%;
+		color: white;
+		vertical-align: text-bottom;
+		text-align: center;
+		margin: 40 auto;
+	}
+.nav-founders .darkfont{
+	font-family: Lato-Regular;
+	font-size: 33px;
+	width: 85%;
+	color: black;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin: 40 auto;
+}
+
+.entrepreneur2014{
+	width:100%;
+	background-color: lightgrey;
+	height:auto;
+	border: 5px solid #285189;
+}
+.entrepreneur2015{
+	width:100%;
+	background-color: darkgrey;
+	height:auto;
+	border: 5px solid #285189;
+}
+div.entrepreneur img {
+	margin-top: 20px;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.entrepreneur2014 .title{
+	font-family: Lato-Regular;
+	font-size: 40px;
+	background-color: white;
+		border: 5px solid #285189;
+	width:85%;
+	max-width:100%;
+	color: darkblue;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin: 20 auto;
+}
+
+.entrepreneur2015 .title{
+	font-family: Lato-Regular;
+	font-size: 40px;
+	background-color: white;
+	border: 5px solid #285189;
+	width:85%;
+	max-width:100%;
+	color: darkblue;
+	vertical-align: text-bottom;
+	text-align: center;
+	margin: 20 auto;
+}
+
+.container {
+  padding: 10px;
+}
+
+.box-content {
+  padding: 20px;
+}
+
+.box-cell {
+  margin-bottom: 10px;
+  
+  &.one {
+    background-color: #F26E11
+  }
+
+  &.two {
+    background-color: #84B2A1;
+  }
+
+  &.three {
+    background-color: #F9EDC7;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .boxes {
+    display: table;
+    width: 100%;
+  }
+
+  .box-row {
+    display: table-row;
+  }
+
+  .box-cell {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33333%;
+
+    &.one {
+      border-right: 5px solid #fff;
+    }
+
+    &.two {
+      border-left: 5px solid #fff;
+      border-right: 5px solid #fff;
+    }
+
+    &.three {
+      border-left: 5px solid #fff;
+    }
+  }
+}
+	
+.nav-abovefooter{
+	width:100%;
+	background: url('../Pages/home/abovefooter.png') no-repeat center;
+	height:auto;
+}
+
+.nav-sections{
+	width:100%;
+	/*background-color: lightgrey;*/
+	background: url('../Pages/home/abovefooter.png') no-repeat center;
+	height:auto;
+}
+
+/*   background behind text    */
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  background: rgba(0,0,0,0.5);
+  background-color: blue;
+  opacity: 0.9;
+  color: white;
+  width: 100%;
+border: 5px solid white;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 300px) { 
+  div{width:100%;} 
+}
+
+ /*-------------------------NEW BUTTONS-----------------*/	  
+ .button8 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 132px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: regular;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button9 {
+    background-color: green; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button9:hover {
+    background-color: #008CBA;
+    color: white;
+}
+/*responsive button*/
+@media screen and (max-width: 750px){
+	 .button8 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: regular;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+}
+
+ p .rating{
+	color: black;
+}
+img.menuicon {
+  width: 30px;
+  height: 30px;
+}

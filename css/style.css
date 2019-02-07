@@ -1,0 +1,272 @@
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  color: #333333;
+  background: black; }
+
+
+#colorlib-container {
+  padding: 4em 0;
+  clear: both; }
+  @media screen and (max-width: 768px) {
+    #colorlib-container,
+    #colorlib-about,
+    #colorlib-contact,
+    #colorlib-footer {
+      padding: 3em 0; } }
+
+
+/* Blog and sidebar sizes and mobile responsive */
+.content {
+  width: 64%;
+  float: left; }
+  @media screen and (max-width: 768px) {
+    .content {
+      padding-bottom: 7em; } }
+
+.sidebar {
+  width: 30%;
+  float: right; }
+
+.content, .sidebar {
+  display: inline-block; }
+  @media screen and (max-width: 768px) {
+    .content, .sidebar {
+      width: 100%;
+      padding-left: 1em;
+      padding-right: 1em; } }
+
+
+
+/* Blog section */
+.blog-entry {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 3em;
+  margin-bottom: 4em;
+  width: 100%;
+  display: block;
+  clear: both; }
+  /*Section from category to views*/
+  .blog-entry .blog-wrap {
+    background: #fafafa;
+    padding: 2em 0;
+    margin-bottom: 40px;
+    position: relative;
+    display: block; }
+    /* Blog - image size */
+    img.blog {
+          object-fit: cover;
+          width: 80%;
+          height: 300px;
+          border-radius: 30px;
+}
+
+    /*Blog - time, author and views*/
+  .blog-entry .category {
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Lora", Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 13px;
+    color: #f6490d; }
+    .blog-entry .category a {
+      color: #f6490d; }
+      /*Blog - h2 text*/
+  .blog-entry h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-style: italic; }
+    .blog-entry h2 a {
+      color: #4d4d4d; }
+  /*Blog - description*/
+  .blog-entry .desc {
+    margin-bottom: 4em;
+    position: relative;
+     }
+       /*Blog - description first letter effect*/
+    .blog-entry .desc p.first-letra:first-child:first-letter {
+      color: #000;
+      float: left;
+      font-family: Georgia;
+      font-size: 110px;
+      line-height: 90px;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-left: 3px; 
+      }
+ 
+/* SIDEBAR STUFF  */
+/*  Text User logged in, Categories, Recent Jobs */
+.sidebar-heading {
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 1px;
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+  position: relative;
+  color: #333333; }
+  .sidebar-heading:after {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 2px;
+    content: '';
+    margin: 0 auto;
+    background: #F6490D; }
+
+
+/* Sidebar */
+.side-wrap {
+  margin-bottom: 5em;
+  width: 100%;
+  float: left; }
+  
+  .side-wrap .f-entry {
+    position: relative;
+    margin-bottom: 3em;
+    padding: 1em;
+    background: #fafafa; }
+    /* Sidebar recent jobs image */
+    .side-wrap .f-entry .featured-img {
+          object-fit: cover;
+          width: 80%;
+          height: 120px;
+          border-radius: 30px;
+      
+      margin-bottom: 1em; }
+      @media screen and (max-width: 768px) {
+        .side-wrap .f-entry .featured-img {
+          width: 70px;
+          height: 70px; } }
+    .side-wrap .f-entry .desc {
+     }
+      @media screen and (max-width: 768px) {
+        .side-wrap .f-entry .desc {
+          padding-left: 90px; } }
+      .side-wrap .f-entry .desc h3 {
+        font-size: 19px;
+        font-style: italic;
+        line-height: 1.4;
+        margin-bottom: 10px; }
+        .side-wrap .f-entry .desc h3 a {
+          color: #4d4d4d; }
+      .side-wrap .f-entry .desc span {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: gray; }
+        .side-wrap .f-entry .desc span i {
+          padding-right: 10px; }
+  /*Categories Sidebar Menu*/
+  .side-wrap .category {
+    margin: 0;
+    padding: 0; }
+    .side-wrap .category li {
+      list-style: none; }
+      .side-wrap .category li a {
+        border-bottom: 1px dashed #d9d9d9;
+        display: block;
+        padding: 10px 0;
+        color: #4d4d4d; }
+        .side-wrap .category li a i {
+          padding-right: 10px; }
+
+
+
+/* Buttons */
+.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px; }
+  .btn.btn-md {
+    padding: 8px 20px !important; }
+  .btn.btn-lg {
+    padding: 18px 36px !important; }
+  .btn:hover, .btn:active, .btn:focus {
+    -webkit-box-shadow: 0 2px 10px -5px black;
+    box-shadow: 0 2px 10px -5px black;
+    outline: none !important; }
+
+.btn-primary {
+  background: #F6490D;
+  color: #fff;
+  border: 2px solid #F6490D; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #f75b26 !important;
+    border-color: #f75b26 !important; }
+  .btn-primary.btn-outline {
+    background: transparent;
+    color: #F6490D;
+    border: 2px solid #F6490D; }
+    .btn-primary.btn-outline:hover {
+      background: #F6490D;
+      color: #fff; }
+      .btn-primary.btn-custom {
+  font-family: "Lora", Georgia, serif !important;
+  padding: 10px 30px;
+  font-style: italic !important; }
+
+/* Image Sizes */
+img.avatar {
+  padding: .1em;
+  margin-left: .3em;
+  margin-top: .1em;
+  height: auto;
+  width: 50%;
+  border-radius: 10em;
+}
+img.contracts {
+  width: 25%;
+  height: auto;
+  display:block;
+}
+img.proposal {
+  padding: .1em;
+  margin-left: .3em;
+  margin-top: .1em;
+  width: 65%;
+  height: auto;
+}
+img.applicant {
+  padding: .1em;
+  margin-left: .3em;
+  margin-top: .1em;
+  width: 35%;
+  height: auto;
+}
+img.post-creator{
+  padding: .1em;
+  margin-left: .3em;
+  margin-top: .1em;
+  height: auto;
+  width: 30%;
+  border-radius: 10em;
+}
+img.pic{
+  width: 70%;
+  height: auto;
+}
+
+
+#hover-content {
+    display:none;
+}
+#parent:hover #hover-content {
+    display:block;
+}

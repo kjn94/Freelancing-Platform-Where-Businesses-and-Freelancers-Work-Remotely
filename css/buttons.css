@@ -1,0 +1,158 @@
+/*-------------------------3D BUTTONS-----------------*/
+input[type="submit"]{
+    padding:10px;
+    color:#fff;
+    background:#0098cb;
+    width:320px;
+    margin:20px auto;
+    margin-top:0px;
+    border:0px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:#00b8eb;
+}
+
+.button{
+    display:block;
+    width:120px;
+    height:45px;
+    position:relative;
+    border:2px solid #04a;
+    margin: 0px 0px;
+    border-radius:5px;
+}
+
+.button .contentbut{
+    display:block;
+    position:absolute;
+    bottom:6px;
+    width:100%;
+    height:100%;
+    line-height:50px;
+    background-color:#09f;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    box-shadow: 0 6px 0 #06c;
+    border-radius:5px;
+    transition:all 0.ls linear;
+ }
+ 
+.button:active .contentbut{
+    bottom:0;
+    box-shadow: 0 0 0 #06c;
+ }	
+
+ /*-------------------------NEW BUTTONS Blog/Login/Register-----------------*/	  
+ .button8 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button9 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button9:hover {
+    background-color: #008CBA;
+    color: white;
+}
+/*responsive button*/
+@media screen and (max-width: 1050px){
+    .button8 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 47px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+/*responsive button*/
+@media screen and (max-width: 550px){
+    .button8 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 6px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 9px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+ /*-------------------------HOVER EFFECTS-----------------*/
+
+ /*------HOVER BUTTON--------*/
+#hovers{
+width:50;
+height:50;
+opacity:1;
+}
+
+#hovers:hover{
+color:white;
+opacity:0.7;
+}
+img.logo{
+    margin-top: 5px;
+    object-fit: cover;
+    width: 80%;
+    height: 50px;
+}
+/*responsive button*/
+@media screen and (max-width: 1050px){
+    img.logo{
+        margin-top: 12px;
+        object-fit: cover;
+        width: 150px;
+        height: 37px;
+    }
+}
+@media screen and (max-width: 800px){
+    img.logo{
+        margin-top: 15px;
+        object-fit: cover;
+        width: 150px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 640px){
+    img.logo{
+        margin-top: 5px;
+        object-fit: cover;
+        width: 220px;
+        height: 50px;
+    }
+}
+
+img.stars {
+  width: 30px;
+  height: 30px;
+}
